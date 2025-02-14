@@ -34,25 +34,53 @@ color: #e5e7eb;
 .links{
     display: flex;
     justify-content: space-between;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .top {
     background-color: #1f2937;
+    color: #e5e7eb;
 }
 
-.middle {
+h2 {
+    color: #f9faf8
+}
+
+button {
     background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+.middle {
+    background-color: none;
 }
 .quote {
     background-color: #e5e7eb;
 }
 .CTA {
+display: flex;
+justify-content: center;
+}
+
+h4 {
     background-color: #3882f6;
+}
+.message {
+    background-color: #3882f6;
+    display: flex;
 }
 
 .footer{
     background-color: #1f2937;
     color: #f9faf8;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    color:#f9faf8;
 }
 
 .page{
