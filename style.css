@@ -41,35 +41,118 @@ color: #e5e7eb;
 .top {
     background-color: #1f2937;
     color: #e5e7eb;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
-h2 {
-    color: #f9faf8
+.p1 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
 }
+
+.this {
+    align-self: flex-end;
+}
+
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.wow {
+    height: 100px;
+    width: 100px;
 }
 .middle {
     background-color: none;
-}
-.quote {
-    background-color: #e5e7eb;
-}
-.CTA {
-display: flex;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
 }
 
-h4 {
-    background-color: #3882f6;
-}
-.message {
-    background-color: #3882f6;
+.container {
     display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+}
+
+.dolla, .heart, .bandaid, .camera{
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    font: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+.saying {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    font-weight: lighter;
+}
+.whom {
+    text-align: right
+}
+
+.pedal {
+display: flex;
+flex-grow: 1;
+background-color: #3882f6;
+height: 200px;
+}
+
+}
+.CTA {
+background-color: none;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 25px;
+padding-bottom: 25px;
+box-sizing: border-box;
+}
+
+.foryou {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+justify-content: space-evenly;
 }
 
 .footer{
