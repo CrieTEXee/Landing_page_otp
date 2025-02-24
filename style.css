@@ -161,6 +161,7 @@ display: flex;
 flex-grow: 1;
 background-color: #3882f6;
 height: 200px;
+flex-shrink: 0;
 }
 
 }
@@ -172,6 +173,7 @@ padding-top: 25px;
 padding-bottom: 25px;
 box-sizing: border-box;
 align-content: center;
+flex-shrink: 0;
 }
 
 .foryou {
@@ -181,6 +183,7 @@ align-items: center;
 justify-content: space-evenly;
 border-radius: 25px;
 height: 100px;
+flex-shrink: 0;
 }
 
 .caw {
